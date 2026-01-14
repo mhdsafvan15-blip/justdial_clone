@@ -1,0 +1,350 @@
+*{
+    margin:0;
+padding: 0;
+}
+.navigation-bar{
+ display: flex;   
+ border: 0.5px solid rgb(237, 228, 228);
+ height: 80px;
+}
+.main-image img{
+    height: 79px;
+}
+.main-part-2{
+    width: 400px;
+}
+.main-part-3{
+    display: flex;
+    border: none;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+.main-part-3 select{
+    border: none;
+    color: rgba(24, 125, 219, 0.83);
+    height: 20px;
+    width: 40px;
+    
+}
+.main-part-3 select option{
+    color: black;
+}
+.main-part-3 i{
+    font-size: 14px;
+}
+.btn-option{
+    height:20px ;
+    width: 70px;
+    padding: 5px 5px 10px 10px;
+}
+.btn-option:hover{
+ background-color: beige;   
+}
+.btn-option select:hover{
+  background-color: beige;  
+}
+.main-part-4{
+    display: flex;
+}
+.min-part{
+    font-size: 15px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+}
+.min-part:hover{
+    background-color: beige;
+    border-radius: 4px;
+}
+#min-part{
+    margin-left:5px ;
+}
+.btn-login button{
+    color: white;
+    background-color: rgb(91, 91, 250);
+    border: none;
+    padding: 6px 6px 8px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+img{
+    margin-left: 10px;
+}
+.smaller h4{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 26px;
+    font-family: "Poppins",sans-serif;
+}
+.smaller h4::after {
+    content: "hello world";
+    animation:abc 4s infinite;
+    font-size: 26px;
+}
+@keyframes abc{
+    0%{
+        content:"‘4.7 Crore+‘ " " Businesses";}
+    50%{
+        content:"‘ 5.9 Crore+’ Products & Services"}
+    100%{
+        content:"‘4.7 Crore+‘ Businesses";}
+}
+.search-container {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        position: sticky;
+        top: 10px;
+    }
+
+    /* Location box */
+    .location-box {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        background: #fff;
+        font-size: 14px;
+        cursor: pointer;
+        margin-left: 26px;
+        width: 144px;
+        height: 25px;
+        border: 1px solid;
+    }
+    .search-box input {
+        border:1px solid black;
+        border-radius: 6px;
+        padding: 16px 15px;
+        font-size: 14px;
+        flex: 1;
+        width: 466px;
+        outline: none;
+        margin-left: 5px;
+        position: relative;
+    }
+
+    .mic-icon {
+        padding:0px;
+        left: 50px;
+        color: dodgerblue;
+        font-size: 23px;
+        cursor: pointer;
+        position: absolute;
+        left: 630px;
+        top: 13px;
+    }
+
+    .search-btn {
+        background: #ff6600;
+        border: none;
+        color: white;
+        padding: 9px 12px;
+        font-size: 16px;
+        cursor: pointer;
+        position: absolute;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        left: 659px;
+        top: 7px;
+
+    }
+
+    .search-btn:hover {
+        background: #e05500;
+    }
+        .smaller{
+        position: relative;
+    }
+    .image1{
+        position: absolute;
+        top: 11px;
+        margin-left: 87%;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        height: 240px;
+        padding-top: 25px;
+        width: 1175px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .chapter-1{
+        width: 595px;
+    }
+    .chapter-2{
+        border-radius: 12px;
+        position: relative;
+        margin-left: 0PX;
+        background-color:rgb(9, 120, 231)
+    }
+    .chapter-3{
+         border-radius: 12px;
+         position: relative;
+        background-color:rgb(24, 74, 199)
+    }
+    .chapter-4{
+         border-radius: 12px;
+         position: relative;
+        background-color:rgb(129, 84, 218)
+    }
+    .chapter-5{
+         border-radius: 12px;
+         position: relative;
+        background-color:rgb(8, 129, 93)
+    }
+    .image2{
+        width: 100%;
+        height: 100%;
+    }
+    .image3{
+        width: 100%;
+        height: 100%;
+        margin-left: 0PX;
+    }
+    .image4{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .image5{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .image6{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    .h1{
+        position: absolute;
+        top: 22px;
+        font-size: 24px;
+        left: 18px;
+        font-family: "Poppins",sans-serif;
+        color: white;
+    }
+    .p1{
+        bottom: 186px;
+        position: relative;
+        left: 20px;
+        color: white;
+    }
+    .h2{
+        top: 20px;
+        position: absolute;
+        color: white;
+        left: 10px;
+        font-size: 24px;
+    }
+    .p2{
+        position: relative;
+    bottom: 143px;
+    left: 10px;
+    color: white;
+    }
+    .h3{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: white;
+    }
+    .p3{
+        position: relative;
+        bottom: 186px;
+        left: 10px;
+        color: white;
+    }
+    .h4{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        color: white;
+    }
+    .p4{
+        position: relative;
+        bottom: 186px;
+        left: 10px;
+        color: white;
+    }
+    .parent2{
+        width: 1176px;
+        height: 272px;
+        background-color: white;
+        margin-top: 40px;
+        display: grid;
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 40px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        border: 1px solid;
+        border-color: white;
+        gap: 10px;
+    }
+    .small{
+        width: 75px;
+        height: 120px;
+        margin-left: 20px;
+    }
+
+    .small img{
+        height: 50px;
+        border: 1px solid;
+        border-radius: 15px;
+    }
+    a{
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    .parent3{
+        width: 1135px;
+        height: 500px;
+        padding-left: 35px;
+        padding-right: 35px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .ps{
+        width: 565px;
+        height: 220px;
+        border: 1px solid;
+        border-color: #ccc;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        align-items: center;
+        border-radius: 15px;
+        gap: 10px;
+    }
+    .photo{
+        height: 114px;
+        width: 153.4px;
+        align-items: center;
+        padding-top: px;
+    }
+    .photo1{
+        height: 114px;
+        width: 153.4px;
+        align-items: center;
+        padding-top: px;
+    }
+    .uro{
+        padding-bottom: 20px;
+        margin-top:-40px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+ 
